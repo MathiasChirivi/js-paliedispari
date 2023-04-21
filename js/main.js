@@ -14,5 +14,6 @@ if (wordl == parolaInversa) {
 
 function invertiParola(str) {
     var strInversa = str.split('').reverse().join('');
+    //console.log("strInversa")
     return strInversa;
 }
